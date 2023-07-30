@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tailwind</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="tailwin.config.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&family=Style+Script&display=swap" rel="stylesheet">
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            text-decoration: none;
+        }
+        ul,li{
+            list-style-type:none;
+        }
+        h1,h2,h3,h4,h5,h6,p{
+            line-height: 0.8;
+        }
+    </style>
+</head>
+<body class="bg-body font-roboto">
+     <header class="bg-comon py-2 border-b-8 border-teya px-4 tablet:px-2">
+        <div class="mx-auto max-w-container ">
+            <div class="flex justify-between items-center">
+                <div class="text-blue flex">
+                    <p class="pr-8 tablet:pr-2">info@gmail.com</p>
+                    <p >+880 1308170956</p>
+                </div>
+                <div class="text-blue gap-x-2 ">
+                    <i class="fa-brands fa-square-facebook ml-2 tablet:ml-1"></i>
+                    <i class="fa-brands fa-square-twitter ml-2 tablet:ml-1"></i>
+                    <i class="fa-brands fa-linkedin ml-2 tablet:ml-1"></i>
+                    <i class="fa-brands fa-square-instagram ml-2 tablet:ml-1"></i>
+                </div>
+            </div>
+        </div>
+     </header>
+     <nav class="bg-blue py-2 px-4 tablet:px-2">
+        <div class="mx-auto max-w-container ">
+            <div class="flex justify-between items-center">
+                <div class="uppercase text-4xl text-comon">
+                    <a href="">logo</a>
+                </div>
+                <div class="uppercase flex text-xl text-comon tablet:hidden">
+                    <a class="pl-6" href="">home</a>
+                    <a class="pl-6" href="">about</a>
+                    <a class="pl-6" href="">service</a>
+                    <a class="pl-6" href="">blog</a>
+                    <a class="pl-6" href="">contact</a>
+                </div>
+                <div class="hidden tablet:block">
+                    <i class="fa-solid fa-bars text-comon "></i>
+                </div>
+            </div>
+        </div>
+     </nav>
+     <section class="bg-banner bg-center bg-no-repeat bg-cover px-4 tablet:px-2">
+        <div class="mx-auto max-w-container py-36 font-medium text-comon text-center">
+            <div class="">
+                <h1 class="text-70 text-bold text-blue tablet:text-50">Jonathon Kubb</h1>
+                <h2 class="text-50 font-styles py-6 tablet:text-30 tablet:py-2">Photography</h2>
+                <p class="text-30 tablet:text-25">Based in New York since 2001</p>
+            </div>
+        </div>
+     </section>
+     <section class="py-24 px-4 tablet:px-2">
+        <div class="mx-auto flex max-w-container ">
+            <div class="w-2/6 bg-center bg-no-repeat bg-cover mr-4">
+                <img src="images/about1.jpg" alt="not-found">
+            </div>
+            <div class="w-4/6">
+                <h2 class="text-30 text-bold text-blue capitalize relative after:absolute after:content[''] after:w-[80px] after:h-[3px] after:bg-blue after:left-0 after:bottom-[-10px] before:absolute before:content[''] before:w-[40px] before:h-[3px] before:bg-blue before:left-0 before:bottom-[-20px]">about me</h2>
+                <p class="pt-8 pr-16 tablet:pr-2 pb-12 leading-6 ">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum dolor numquam accusamus. Praesentium dolor asperiores, aliquam, quibusdam, illum culpa exercitationem debitis quasi nobis facilis nam id omnis recusandae quaerat dolores!</p>
+                <a href="#" class="p-4 bg-blue rounded-md text-comon">Learn More</a>
+            </div>
+        </div>
+     </section>
+
+
+
+     
+
+
+
+
+     <script src="https://kit.fontawesome.com/8abab984f3.js" crossorigin="anonymous"></script>
+</body>
+</html>
